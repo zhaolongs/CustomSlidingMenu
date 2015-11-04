@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="slide_menu_view_menu_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#44663300</item>
+        <item name="android:drawablePadding">10dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">15dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:text">sliding menu test</item>
+        <item name="android:drawableLeft">@mipmap/userbar_message_new_b9bca6f5</item>
+
+    </style>
+
+    <style name="slide_menu_view_menu_tab" parent="slide_menu_view_menu_title">
+        <item name="android:background">@drawable/slidemenuview_tab_bg</item>
+    </style>
+
+</resources>

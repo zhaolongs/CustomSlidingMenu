@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#DFDF9F"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/userbar_message_new_b9bca6f5" />
+
+        <View
+            android:layout_width="2dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dip"
+            android:background="@drawable/top_bar_divider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:text="this is my test slidingmenu"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="xx"
+        android:textSize="25sp" />
+
+</LinearLayout>
